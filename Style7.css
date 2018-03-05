@@ -1,0 +1,129 @@
+*{
+        box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    .clearfix{
+        clear: both;
+    }
+}
+/* Upper site of page starts here */
+.Upper{
+height: 350px;
+width: 100%;
+margin: 0px;
+background-image: url("coffee2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+position: relative
+}
+.Simple{
+    color: gray;
+    width: 35%;
+    margin-left: 2%;
+    margin-top: 0%;
+    padding-top: 2%;
+}
+.Button{
+    margin-left: 2%;
+    padding-top: 20px;
+    }
+    .Button button{
+        background-color: dodgerblue;
+        border-color: dodgerblue;
+        margin: 5px;
+        width: 80px;
+        color: white;
+        padding: 4px;
+    }
+    /* lower part of page starts here */
+    .Down{
+        /* margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2%; */
+        color: grey;
+        width: 100%;
+    }
+    .Down .Features{
+        text-align: center;
+        color: grey;
+        margin-bottom: 40px;
+         }
+         /* Class Responsive */
+    .Down .Responsive {
+        font-size: 48px;
+        float: left;
+        width: 23%;
+        text-align: center;
+        margin-left: 1%;
+
+        }
+        .Down .Responsive h1{
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .Down .Responsive h6{
+            font-size: 16px;
+            text-align: left;
+        }
+        /* Class Lightweight */
+        .Down .Lightweight {
+            font-size: 48px;
+            float: left;
+            width: 23%;
+            text-align: center;
+            margin-right: 1%;
+            border-left: 1px solid grey;
+            padding-left: 10px;
+            }
+            .Down .Lightweight h1{
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+            .Down .Lightweight h6{
+                font-size: 16px;
+                text-align: left;
+                }
+        /* Class PX */
+        .Down .PX{
+            font-size: 48px;
+            float: left;
+            width: 23%;
+            text-align: center;
+            margin-right: 1%;
+            border-left: 1px solid grey;
+            padding-left: 10px;
+            
+            }
+            .Down .PX h1{
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+            .Down .PX h6{
+                font-size: 16px;
+                text-align: left;
+            }
+                /* Class Column */
+
+        .Down .Column{
+            font-size: 48px;
+            float: left;
+            width: 23%;
+            text-align: center;
+            margin-right: 1%;
+            border-left: 1px solid grey;
+            padding-left: 10px;
+
+                    }
+            .Down .Column h1{
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+            .Down .Column h6{
+                font-size: 16px;
+                text-align: left;}
+                .last{
+                    margin-top: 5%;
+                    display: inline-block;
+                    text-align: center;
+                }
